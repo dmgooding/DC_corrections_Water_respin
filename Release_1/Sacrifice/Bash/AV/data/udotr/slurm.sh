@@ -1,0 +1,161 @@
+#!/bin/bash
+sbatch batch_AV_0.sh
+sbatch batch_AV_1.sh
+sbatch batch_AV_2.sh
+squeue -u dgooding2 >> stuff
+while [ $(wc -l <stuff) -ge 100 ]
+do
+	rm stuff
+	sleep 10s
+	squeue -u dgooding2 >> stuff
+done
+rm stuff
+sbatch batch_AV_3.sh
+sbatch batch_AV_4.sh
+sbatch batch_AV_5.sh
+sbatch batch_AV_6.sh
+sbatch batch_AV_7.sh
+sbatch batch_AV_8.sh
+sbatch batch_AV_9.sh
+sbatch batch_AV_10.sh
+sbatch batch_AV_11.sh
+sbatch batch_AV_12.sh
+sbatch batch_AV_13.sh
+sbatch batch_AV_14.sh
+sbatch batch_AV_15.sh
+sbatch batch_AV_16.sh
+sbatch batch_AV_17.sh
+sbatch batch_AV_18.sh
+sbatch batch_AV_19.sh
+sbatch batch_AV_20.sh
+sbatch batch_AV_21.sh
+sbatch batch_AV_22.sh
+sbatch batch_AV_23.sh
+sbatch batch_AV_24.sh
+sbatch batch_AV_25.sh
+sbatch batch_AV_26.sh
+sbatch batch_AV_27.sh
+sbatch batch_AV_28.sh
+sbatch batch_AV_29.sh
+sbatch batch_AV_30.sh
+sbatch batch_AV_31.sh
+sbatch batch_AV_32.sh
+sbatch batch_AV_33.sh
+sbatch batch_AV_34.sh
+sbatch batch_AV_35.sh
+sbatch batch_AV_36.sh
+sbatch batch_AV_37.sh
+sbatch batch_AV_38.sh
+sbatch batch_AV_39.sh
+sbatch batch_AV_40.sh
+sbatch batch_AV_41.sh
+sbatch batch_AV_42.sh
+sbatch batch_AV_43.sh
+sbatch batch_AV_44.sh
+sbatch batch_AV_45.sh
+sbatch batch_AV_46.sh
+sbatch batch_AV_47.sh
+sbatch batch_AV_48.sh
+sbatch batch_AV_49.sh
+sbatch batch_AV_50.sh
+sbatch batch_AV_51.sh
+sbatch batch_AV_52.sh
+squeue -u dgooding2 >> stuff
+while [ $(wc -l <stuff) -ge 100 ]
+do
+	rm stuff
+	sleep 10s
+	squeue -u dgooding2 >> stuff
+done
+rm stuff
+sbatch batch_AV_53.sh
+sbatch batch_AV_54.sh
+sbatch batch_AV_55.sh
+sbatch batch_AV_56.sh
+sbatch batch_AV_57.sh
+sbatch batch_AV_58.sh
+sbatch batch_AV_59.sh
+sbatch batch_AV_60.sh
+sbatch batch_AV_61.sh
+sbatch batch_AV_62.sh
+sbatch batch_AV_63.sh
+sbatch batch_AV_64.sh
+sbatch batch_AV_65.sh
+sbatch batch_AV_66.sh
+sbatch batch_AV_67.sh
+sbatch batch_AV_68.sh
+sbatch batch_AV_69.sh
+sbatch batch_AV_70.sh
+sbatch batch_AV_71.sh
+sbatch batch_AV_72.sh
+sbatch batch_AV_73.sh
+sbatch batch_AV_74.sh
+sbatch batch_AV_75.sh
+sbatch batch_AV_76.sh
+sbatch batch_AV_77.sh
+sbatch batch_AV_78.sh
+sbatch batch_AV_79.sh
+sbatch batch_AV_80.sh
+sbatch batch_AV_81.sh
+sbatch batch_AV_82.sh
+sbatch batch_AV_83.sh
+sbatch batch_AV_84.sh
+sbatch batch_AV_85.sh
+sbatch batch_AV_86.sh
+sbatch batch_AV_87.sh
+sbatch batch_AV_88.sh
+sbatch batch_AV_89.sh
+sbatch batch_AV_90.sh
+sbatch batch_AV_91.sh
+sbatch batch_AV_92.sh
+sbatch batch_AV_93.sh
+sbatch batch_AV_94.sh
+sbatch batch_AV_95.sh
+sbatch batch_AV_96.sh
+sbatch batch_AV_97.sh
+sbatch batch_AV_98.sh
+sbatch batch_AV_99.sh
+sbatch batch_AV_100.sh
+sbatch batch_AV_101.sh
+sbatch batch_AV_102.sh
+sbatch batch_AV_103.sh
+sbatch batch_AV_104.sh
+sbatch batch_AV_105.sh
+sbatch batch_AV_106.sh
+sbatch batch_AV_107.sh
+sbatch batch_AV_108.sh
+sbatch batch_AV_109.sh
+sbatch batch_AV_110.sh
+sbatch batch_AV_111.sh
+sbatch batch_AV_112.sh
+sbatch batch_AV_113.sh
+sbatch batch_AV_114.sh
+sbatch batch_AV_115.sh
+sbatch batch_AV_116.sh
+sbatch batch_AV_117.sh
+sbatch batch_AV_118.sh
+sbatch batch_AV_119.sh
+sbatch batch_AV_120.sh
+sbatch batch_AV_121.sh
+sbatch batch_AV_122.sh
+sbatch batch_AV_123.sh
+sbatch batch_AV_124.sh
+sbatch batch_AV_125.sh
+sbatch batch_AV_126.sh
+sbatch batch_AV_127.sh
+sbatch batch_AV_128.sh
+sbatch batch_AV_129.sh
+sbatch batch_AV_130.sh
+sbatch batch_AV_131.sh
+sbatch batch_AV_132.sh
+sbatch batch_AV_133.sh
+sbatch batch_AV_134.sh
+sbatch batch_AV_135.sh
+sbatch batch_AV_136.sh
+sbatch batch_AV_137.sh
+sbatch batch_AV_138.sh
+sbatch batch_AV_139.sh
+sbatch batch_AV_140.sh
+sbatch batch_AV_141.sh
+sbatch batch_AV_142.sh
+sbatch batch_AV_143.sh
